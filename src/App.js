@@ -1,7 +1,7 @@
 import "./App.css";
 // import Post from "./Post";
 import { useState } from "react";
-
+function myfun() {}
 function ReplyThread(props) {
   const [show, setShow] = useState(false);
   const { reply } = props;
